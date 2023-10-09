@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>
+            Grids
+        </title>
+    </head>
+    <style>
+        .grid_container
+        {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-gap: 10px;
+            padding: 10px 0px;
+            background-color: maroon;
+            animation: myanimation 1s;
+            animation-iteration-count: 10;
+            border: 5px solid grey ;
+
+        }
+        .grid_container > div
+        {
+            background-color: rgba(300, 300, 300, 0.7);
+            text-align: center;
+            padding: 10px 0px;
+            font-size: 20px;
+        }
+        @keyframes myanimation
+        {
+            50%
+            {
+                grid-row-gap: 100px;
+            }
+        }
+    </style>
+    <body>
+        <h1>
+            Grid Lecture
+        </h1>
+        <div class="grid_container">
+            <div class="item">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="./grid.jpg" width="150px" align="center">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="item">
+                <p>
+                    This is Grid CSS
+                </p>
+            </div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+            <div class="item">8</div>
+        </div>
+    </body>
+</html>
