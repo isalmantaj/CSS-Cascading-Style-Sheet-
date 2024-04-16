@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <!-- Internal CSS -->
+    <style>
+        /* 1. Element Selector */
+        span {
+            color: red;
+        }
+
+        p {
+            color: blue;
+        }
+
+        /* 2. ID Selector */
+        #para1 {
+            background-color: yellow;
+        }
+
+        #para2 {
+            background-color: orange;
+        }
+
+        #para3 {
+            background-color: gray;
+        }
+
+        /* 3. Class Selector */
+        .box {
+            background-color: greenyellow;
+            border: 2px solid black;
+        }
+
+        /* 4. Child Selector */
+        div>p {
+            color: peru;
+            font-size: 50px;
+        }
+
+        /* 5. Descendant Selector */
+        div p {
+            color: purple;
+        }
+
+        /* 6. Universal Selector */
+        * {
+            background-color: lightgreen;
+        }
+
+        /* 7. Pseudo Selector */
+        a:hover {
+            background-color: lightpink;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- These below tags for learning Element Selectors above. -->
+    <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo soluta quas illum nemo omnis ea doloremque
+        asperiores fuga incidunt voluptatum.
+    </span>
+    <p>
+        I am text in paragraph tag.
+    </p>
+
+    <!-- These below tags for learning ID Selectors above. -->
+    <p id="para1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iure?
+    </p>
+
+    <p id="para2">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto non libero consequatur nostrum reiciendis
+        magni?
+    </p>
+
+    <p id="para3">
+        Lorem ipsum dolor sit amet.
+    </p>
+
+    <!-- These below tags for learning Class Selectors above. -->
+    <div class="box">
+        This is Box 1.
+    </div>
+    <div class="box">
+        This is Box 2.
+    </div>
+    <!-- These below tags for learning Child Selectors above. -->
+    <div>
+        <p id="para">
+            This is paragraph inside in div element.
+        </p>
+    </div>
+    <!-- These below tags for learning Descendant Selectors above. -->
+    <div>
+        <article>
+            <p>
+                This is paragraph tag inside in article tag within anothor div tag.
+            </p>
+        </article>
+    </div>
+    <!-- These below tags for learning Pseudo Selector above. -->
+    <a href="https://www.google.com">Go to Google</a>
+</body>
+
+</html>
