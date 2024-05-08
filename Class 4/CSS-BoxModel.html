@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model CSS</title>
+
+    <!-- External/Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        h1 {
+            border: 5px solid blue;
+
+            /* border-top: 2px;
+            border-left: 5px;
+            border-right: 5px;
+            border-bottom: 2px; */
+
+            border-radius: 10px;
+
+            /* border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px; */
+
+            background-color: aquamarine;
+            width: 600px;
+            height: 400px;
+
+            padding: 40px;
+            /* padding-top: 40px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 40px; */
+
+            margin: 50px;
+        }
+
+        #firstpara {
+            background-color: yellow;
+            color: blue;
+            border: 5px solid blue;
+            width: 600px;
+            height: 400px;
+
+            padding: 40px;
+            /* padding-top: 40px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 40px; */
+
+            margin: 50px;
+        }
+
+        #secondpara {
+            background-color: rgb(39, 245, 234);
+            color: rgb(255, 98, 0);
+            border: 5px solid blue;
+            width: 600px;
+            height: 400px;
+
+            padding: 40px;
+            /* padding-top: 40px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 40px; */
+
+            margin: 50px;
+        }
+
+        #thirdpara {
+            background-color: rgba(35, 83, 241, 0.338);
+            border: 5px solid blue;
+            width: 600px;
+            height: 400px;
+
+            padding: 40px;
+            /* padding-top: 40px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 40px; */
+
+            /* padding: 40px 50px 60px 80px;
+            padding: 50px 100px; */
+
+            margin: 50px;
+        }
+
+        #fourthpara {
+            background-color: #ed405d;
+            border: 5px solid blue;
+            width: 600px;
+            height: 400px;
+
+            padding: 40px;
+            /* padding-top: 40px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 40px; */
+
+            margin: 50px;
+        }
+
+        #fifthpara {
+            background-color: hsl(150, 100%, 80%);
+            border: 5px solid blue;
+            width: 600px;
+            height: 400px;
+
+            padding: 40px;
+            /* padding-top: 40px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 40px; */
+
+            margin: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to my Webpage</h1>
+
+    <p id="firstpara">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iusto perferendis fugiat nisi esse beatae doloremque quasi voluptates cupiditate dolor est ex quos, doloribus at, mollitia facilis perspiciatis voluptatem ullam sed magni! Optio modi reprehenderit vero dolore animi molestiae facilis omnis quam autem minima magni ad doloremque nesciunt, quo id perspiciatis! Nemo, voluptate velit mollitia eligendi rerum eveniet reprehenderit accusamus ab quidem nisi delectus numquam vitae pariatur quia sed qui laboriosam maxime natus quo illo accusantium. Natus in tenetur, quam dignissimos, officiis eius eos, praesentium nihil quos alias porro necessitatibus quis minima aliquam labore nisi explicabo veritatis dolorem fugiat consequuntur?
+    </p>
+
+    <p id="secondpara">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iusto perferendis fugiat nisi esse beatae doloremque quasi voluptates cupiditate dolor est ex quos, doloribus at, mollitia facilis perspiciatis voluptatem ullam sed magni! Optio modi reprehenderit vero dolore animi molestiae facilis omnis quam autem minima magni ad doloremque nesciunt, quo id perspiciatis! Nemo, voluptate velit mollitia eligendi rerum eveniet reprehenderit accusamus ab quidem nisi delectus numquam vitae pariatur quia sed qui laboriosam maxime natus quo illo accusantium. Natus in tenetur, quam dignissimos
+    </p>
+
+    <p id="thirdpara">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iusto perferendis fugiat nisi esse beatae doloremque quasi voluptates cupiditate dolor est ex quos, doloribus at, mollitia facilis perspiciatis voluptatem ullam sed magni! Optio modi reprehenderit vero dolore animi molestiae facilis omnis quam autem minima magni ad doloremque nesciunt, quo id perspiciatis! Nemo, voluptate velit mollitia eligendi rerum 
+    </p>
+
+    <p id="fourthpara">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iusto perferendis fugiat nisi esse beatae doloremque quasi voluptates cupiditate dolor est ex quos, doloribus at, mollitia facilis perspiciatis voluptatem ullam sed magni! Optio modi reprehenderit vero dolore animi molestiae facilis omnis quam autem minima magni ad doloremque nesciunt, quo id perspiciatis! Nemo, voluptate velit mollitia eligendi rerum eveniet reprehenderit accusamus ab quidem nisi delectus numquam vitae pariatur quia sed qui laboriosam maxime natus quo illo accusantium. Natus in tenetur, quam dignissimos
+    </p>
+
+    <p id="fifthpara">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iusto perferendis fugiat nisi esse beatae doloremque quasi voluptates cupiditate dolor est ex quos, doloribus at, mollitia facilis perspiciatis voluptatem ullam sed magni! Optio modi reprehenderit vero dolore animi molestiae facilis omnis quam autem minima magni ad doloremque nesciunt, quo id perspiciatis! Nemo, voluptate velit mollitia eligendi rerum eveniet reprehenderit accusamus ab quidem nisi delectus numquam vitae pariatur quia sed qui laboriosam maxime natus quo illo accusantium. Natus in tenetur, quam dignissimos
+    </p>
+</body>
+
+</html>

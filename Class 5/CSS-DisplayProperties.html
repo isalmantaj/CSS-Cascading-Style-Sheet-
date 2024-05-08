@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Properties</title>   
+    <style>
+        /* 
+        
+        Block Elements:
+        1. Always place in New-Line
+        2. Cover Extreme left to Extrem right of the total width of viewport
+        3. Give custom width & height
+        4. Give custom margin & padding
+        
+        Inline Elements:
+        1. Try to be in the same line one with another
+        2. Its initial width will be equal to its content's width
+        3. Can't give custom width & heigh
+        4. enable margins only in horizontal direction, not vertical
+        5. enable padding all sides
+        
+        */
+        div{
+            border: 5px solid black;
+            width: 300px;
+            height: 300px;
+            margin: 40px;
+            padding: 20px;
+            /* display: inline; */
+        }
+        span{
+            border: 2px solid green;
+            margin: 30px;
+            padding: 20px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        This is Div.
+    </div>
+
+    <div>
+        This is Div.
+    </div>
+
+    <span>
+        This is Salman Taj.
+    </span>
+    <span>
+        This is Salman Taj 2.0
+    </span>
+</body>
+</html>
