@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Size Units</title>
+    <style>
+        /* CSS Unit (%) */
+
+        /* .box{
+            border: 2px solid red;
+            width: 25%;
+        } */
+        /* .parent{
+            background-color: aquamarine;
+            border: 2px solid black;
+            width: 50%;
+         }
+         .child{
+            background-color: rgb(5, 119, 81);
+            border: 1px solid rgb(109, 8, 8);
+            width: 25%;
+         } */
+
+        /* CSS Unit (vh and vw) */
+        /* .container{
+                background-color: burlywood;
+                border: 1px solid green;
+                height: 100vh;
+                width: 50vw;
+            } */
+
+
+        /* CSS Unit (em) */
+        /* .wrapper {
+            font-size: 1em;
+        }
+
+        .px {
+            width: 200px;
+        }
+
+        .vw {
+            width: 10vw;
+        }
+
+        .em {
+            width: 10em;
+        } */
+
+
+        /* .container{
+            font-size: 10px;
+        } */
+        /* box font-size will be 100px because em is dependant on its parent sizing, the parent size is 10, so its child will be 10x10=100px size */
+        /* .box{
+            font-size: 10em;
+        } */
+
+        /* CSS Unit (rem) */
+        /* its size dependant to its root element that is html and by default root element size config is 16px, so it will multiply the below rem value with 16 that is 16x5=80px */
+        /* .para{
+            font-size: 5rem;
+        } */
+
+
+    </style>
+</head>
+
+<body>
+    <!-- CSS Unit (%) -->
+
+    <!-- It will fixed 25% width wrt to its immediate parent that is body -->
+    <!-- <div class="box">
+        Welcome to Taj Institute
+    </div> -->
+
+    <!-- <div class="parent">
+        <div class="child">
+            Child Text
+        </div>
+    </div> -->
+
+
+    <!-- CSS Unit (vh and vw) -->
+    <!-- <div class="container">
+        Welcome to vh and vw container
+     </div> -->
+
+    <!-- CSS Unit (em) -->
+    <!-- <div class="wrapper">
+        <div class="box px">I am 200px wide</div>
+        <div class="box vw">I am 10vw wide</div>
+        <div class="box em">I am 10em wide</div>
+    </div> -->
+
+    <!-- <div class="container">
+        <div class="box">
+            Hello Jee.
+        </div>
+    </div> -->
+
+
+    <!-- CSS Unit (rem) -->
+     <!-- <div class="para">
+        This is paragraph.
+     </div> -->
+</body>
+
+</html>
